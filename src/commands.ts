@@ -1,6 +1,19 @@
 import { RCEManager } from "rce.js";
-import * as localDB from '../localDb';  // Make sure the relative path is correct
+import * as localDB from './localDb';  // Local DB for storing player/team data
 
+// 'say' command: sends a message to the server
+export async function say(interaction: any, rce: RCEManager, serverId: string, message: string) {
+  await rce.servers.command(serverId, `say ${message}`);
+  await interaction.reply(`Message sent: ${message}`);
+}
+
+// 'sendcommand' command: sends a custom command to the server
+export async function sendCommand(interaction: any, rce: RCEManager, serverId: string, command: string) {
+  await rce.servers.command(serverId, command);
+  await interaction.reply(`Command sent: ${command}`);
+}
+
+// 'zone' command: handles zone creation based on player emote/message
 export async function handleZoneEmote(
   interaction: any, 
   rce: RCEManager, 
@@ -8,13 +21,12 @@ export async function handleZoneEmote(
   playerName: string, 
   message: string
 ) {
-  const playerId = interaction?.user?.id;  // Assuming user ID for identifying player
+  const playerId = interaction?.user?.id;
   const position = await rce.servers.command(serverId, `printpos "${playerName}"`);
-
   let zoneSize = '';
   let sizeMessage = '';
 
-  // Define zone size and message based on the received emote message
+  // Logic for setting zone size based on message (emote)
   switch (message) {
     case "I need building permission":
       zoneSize = "Please select a size";
@@ -42,7 +54,6 @@ export async function handleZoneEmote(
   await interaction.reply(sizeMessage);
 
   if (zoneSize !== "unknown") {
-    // Check if the player is part of a team
     const playerTeam = await rce.servers.command(serverId, `relationshipmanager.findplayerteam "${playerId}"`);
 
     if (typeof playerTeam === 'string' && playerTeam.includes("NOT IN A TEAM")) {
@@ -50,38 +61,32 @@ export async function handleZoneEmote(
       return;
     }
 
-    // Read player data from local DB
+    // Read data from local DB for player information
     const teamInfo = await localDB.readData();
     const playerData = teamInfo.players.find(player => player.name === playerName);
 
     if (playerData) {
-      // If the player exists in the DB, ensure they are the team leader
       if (playerData.team !== playerTeam) {
         await interaction.reply("You are not the team leader.");
         return;
       }
 
-      // Create the custom zone
+      // Create zone if player is the team leader
       await rce.servers.command(serverId, `zones.createcustomzone "${playerName}_zone" ${position} ${zoneSize} SPHERE (225,150,150) 1`);
       await interaction.reply(`Zone created at ${position} with size ${zoneSize}.`);
     } else {
-      // If the player doesn't exist in the DB, find the team leader
-      const teamId = (playerTeam as string).match(/Team (\d+)/)?.[1];  // Assert playerTeam as string
+      const teamId = (playerTeam as string).match(/Team (\d+)/)?.[1];
 
       if (teamId) {
         const teamInfoResponse = await rce.servers.command(serverId, `teaminfo "#${teamId}"`);
-
-        const leader = (teamInfoResponse as string).match(/(.*)\s\(\w+\)$/)?.[1];  // Assert teamInfoResponse as string
+        const leader = (teamInfoResponse as string).match(/(.*)\s\(\w+\)$/)?.[1];
         const teamMembers = (teamInfoResponse as string).split("\n").map(line => line.trim());
 
-        // Update player data in the local DB
         await localDB.addOrUpdatePlayer(playerName, playerTeam, zoneSize, position);
 
-        // Check if the player is the team leader
         if (leader !== playerName) {
           await interaction.reply("You need to be the team leader to create a zone.");
         } else {
-          // Create the custom zone if the player is the leader
           await rce.servers.command(serverId, `zones.createcustomzone "${playerName}_zone" ${position} ${zoneSize} SPHERE (225,150,150) 1`);
           await interaction.reply(`Zone created at ${position} with size ${zoneSize}.`);
         }
