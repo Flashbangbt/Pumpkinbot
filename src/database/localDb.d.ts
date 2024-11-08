@@ -1,18 +1,11 @@
-// src/localDb.d.ts
+// This file defines types for your local database
 
-export interface Player {
+export interface PlayerData {
+  id: string;
   name: string;
   team: string;
-  zone_size: string;
-  position: string;
-  zone_name?: string;
 }
 
-export interface Data {
-  players: Player[];
-}
-
-export function readData(): Data;
-export function writeData(data: Data): void;
-export function addOrUpdatePlayer(playerName: string, team: string, zoneSize: string, position: string, zoneName?: string): void;
-export function isPlayerInTeam(playerName: string): boolean;
+export const localDb: {
+  getPlayerTeam: (playerId: string) => Promise<string>;
+};

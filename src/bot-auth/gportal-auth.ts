@@ -2,7 +2,7 @@ import { RCEManager, LogLevel } from 'rce.js';
 
 export async function initializeRCE() {
   const rce = new RCEManager();
-  
+
   // Initialize the RCE Manager with bot credentials and log level
   await rce.init(
     { username: process.env.RCE_USERNAME, password: process.env.RCE_PASSWORD },
