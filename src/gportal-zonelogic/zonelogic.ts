@@ -1,6 +1,7 @@
-import { RCEManager } from "rce.js";
-import * as localDB from './localDb';  // Make sure the relative path is correct
 import { CommandInteraction } from 'discord.js';
+import { RCEManager } from 'rce.js';
+import * as localDB from '../localDb'; // Ensure correct import path
+import { ZoneData } from '../types'; // Define types for zone data, optional
 
 export async function handleZoneEmote(
   interaction: CommandInteraction, 
