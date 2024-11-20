@@ -1,0 +1,889 @@
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: Authenticating WebSocket Connection
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: solo-only-3x
+[[DEBUG]]: [solo-only-3x] Fetching Server ID
+[[ERROR]]: [solo-only-3x] Failed To Add Server: Invalid SID
+[[WARNING]]: [solo-only-3x] Failed To Fetch Server ID: Permission denied
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] Sending Command: save
+[[DEBUG]]: [misfits] Updating Server
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.24375,"memory":{"used":2356,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.175,"memory":{"used":2357,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.19375,"memory":{"used":2356,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Sending Command: save
+[[DEBUG]]: [misfits] Updating Server
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.1875,"memory":{"used":2358,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.14375,"memory":{"used":2358,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.13125,"memory":{"used":2359,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.0625,"memory":{"used":2360,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.14375,"memory":{"used":2359,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.13125,"memory":{"used":2359,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.10625,"memory":{"used":2359,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.09375,"memory":{"used":2359,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.10625,"memory":{"used":2359,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.1125,"memory":{"used":2359,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.14375,"memory":{"used":2360,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.09375,"memory":{"used":2360,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.08125,"memory":{"used":2360,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.15,"memory":{"used":2360,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2625,"memory":{"used":2363,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.06875,"memory":{"used":2363,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Refreshing The Authentication Token
+[[DEBUG]]: Token Refreshed
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.06875,"memory":{"used":2363,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.0625,"memory":{"used":2363,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.125,"memory":{"used":2363,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.10625,"memory":{"used":2363,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.06875,"memory":{"used":2363,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Sending Command: save
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.39375,"memory":{"used":2373,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] Sending Command: save
+[[DEBUG]]: [misfits] Updating Server
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.41875,"memory":{"used":2375,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3875,"memory":{"used":2375,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.43125,"memory":{"used":2375,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.4125,"memory":{"used":2375,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.5125,"memory":{"used":2377,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.43125,"memory":{"used":2377,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3875,"memory":{"used":2377,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.41875,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.4,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.35625,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.34375,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.35,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.375,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.35,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Refreshing The Authentication Token
+[[DEBUG]]: Token Refreshed
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.325,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.34375,"memory":{"used":2378,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Sending Command: save
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.175,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.1875,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.175,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.14375,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2125,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.23125,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2875,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3625,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.24375,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.25625,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.26875,"memory":{"used":2379,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.30625,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2625,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.26875,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Sending Command: save
+[[DEBUG]]: [misfits] Updating Server
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.40625,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.24375,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.26875,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.26875,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2375,"memory":{"used":2381,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.24375,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.26875,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.20625,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.26875,"memory":{"used":2380,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.26875,"memory":{"used":2383,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.1875,"memory":{"used":2383,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.30625,"memory":{"used":2383,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.23125,"memory":{"used":2383,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.1875,"memory":{"used":2383,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Sending Command: save
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.20625,"memory":{"used":2385,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.20625,"memory":{"used":2385,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2,"memory":{"used":2385,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.15625,"memory":{"used":2385,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.19375,"memory":{"used":2386,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.225,"memory":{"used":2386,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.23125,"memory":{"used":2385,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2125,"memory":{"used":2386,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.25625,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.19375,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.21875,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.21875,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.28125,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Refreshing The Authentication Token
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2625,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Token Refreshed
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.18125,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.28125,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.24375,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.1875,"memory":{"used":2387,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.18125,"memory":{"used":2389,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.1625,"memory":{"used":2389,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.1875,"memory":{"used":2389,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.16875,"memory":{"used":2390,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.125,"memory":{"used":2389,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.18125,"memory":{"used":2390,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.14375,"memory":{"used":2389,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2625,"memory":{"used":2390,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2,"memory":{"used":2389,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.1875,"memory":{"used":2390,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Sending Command: save
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.33125,"memory":{"used":2389,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.26875,"memory":{"used":2389,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: [misfits] Sending Command: say You didn't provide any text!
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.25,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.21875,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.26875,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.34375,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.28125,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.25625,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.28125,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Sending Command: cmd You didn't provide any text!
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.24375,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2625,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3375,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2875,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Refreshing The Authentication Token
+[[DEBUG]]: Token Refreshed
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.33125,"memory":{"used":2393,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.31875,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.275,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.26875,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.33125,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.24375,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.225,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.34375,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.34375,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.30625,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.30625,"memory":{"used":2396,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.35625,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.35,"memory":{"used":2395,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3625,"memory":{"used":2398,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.34375,"memory":{"used":2398,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Refreshing The Authentication Token
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Token Refreshed
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.34375,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.36875,"memory":{"used":2398,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.36875,"memory":{"used":2398,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2625,"memory":{"used":2398,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: Authenticating WebSocket Connection
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Sending Command: save
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: Authenticating WebSocket Connection
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Sending Command: save
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:37:LOG:DEFAULT: Executing console system command 'save'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Initial Logs Received: 1
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:37:LOG:DEFAULT: [ SAVE ] Beginning save to server/my_server_identity/proceduralmap.3000.2492.51539607423.31.178.sav\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:37:LOG:DEFAULT: [ SAVE ] Begining save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:37:LOG:DEFAULT: [ SAVE ] writing ZIP/DEFLATE\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:37:LOG:DEFAULT: [ SAVE ] Saving 51165 entities\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:38:LOG:DEFAULT: [ SAVE ] savelist count  51165\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:38:LOG:DEFAULT: [ SAVE ] network live count 5268\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:38:LOG:DEFAULT: [ SAVE ] Writing to disk\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:38:LOG:DEFAULT: [ SAVE ] Saved 51165 ents\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:38:LOG:DEFAULT: [ SAVE ] Ending save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.35,"memory":{"used":2415,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Sending Command: say hello
+[[DEBUG]]: [misfits] Sending Command: say hello
+[[DEBUG]]: [misfits] Executing Match: say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:58:LOG:DEFAULT: Executing console system command 'say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:13:58:LOG:DEFAULT: Executing console system command 'say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: say hello
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:38:LOG:DEFAULT: Executing console system command 'relationshipmanager.teaminfo 18'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Initial Logs Received: 1
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:38:LOG:DEFAULT: Team 18 member list:\\nFlashbang5803 [493505] (LEADER)\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: relationshipmanager.teaminfo 8
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:38:LOG:DEFAULT: Executing console system command 'relationshipmanager.teaminfo 8'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:38:LOG:DEFAULT: Team 8 member list:\\nITZ Reaperz HD [43410] (LEADER)\\nIcantaimstr8874 [48761]\\neVt Acti [662864]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:38:LOG:DEFAULT: [ SAVE ] Begining save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:38:LOG:DEFAULT: [ SAVE ] writing ZIP/DEFLATE\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:38:LOG:DEFAULT: [ SAVE ] Saving 51154 entities\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Sending Command: save
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:40:LOG:DEFAULT: Executing console system command 'save'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: save
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:42:LOG:DEFAULT: [ SAVE ] savelist count  0\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:42:LOG:DEFAULT: [ SAVE ] network live count 5412\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:42:LOG:DEFAULT: [ SAVE ] Writing to disk\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:42:LOG:DEFAULT: [ SAVE ] Saved 51154 ents\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:42:LOG:DEFAULT: [ SAVE ] Ending save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.53125,"memory":{"used":2419,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Sending Command: say hello
+[[DEBUG]]: [misfits] Sending Command: say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:47:LOG:DEFAULT: Executing console system command 'say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: say hello
+[[DEBUG]]: [misfits] Executing Match: say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:14:47:LOG:DEFAULT: Executing console system command 'say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: [misfits] Fetching Server Status
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Sending Command: save
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:45:LOG:DEFAULT: Executing console system command 'save'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Initial Logs Received: 1
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:45:LOG:DEFAULT: [ SAVE ] Beginning save to server/my_server_identity/proceduralmap.3000.2492.51539607423.31.178.sav\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:46:LOG:DEFAULT: [ SAVE ] Begining save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:46:LOG:DEFAULT: [ SAVE ] writing ZIP/DEFLATE\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:46:LOG:DEFAULT: [ SAVE ] Saving 51176 entities\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.30625,"memory":{"used":2422,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:46:LOG:DEFAULT: [ SAVE ] savelist count  51176\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:46:LOG:DEFAULT: [ SAVE ] network live count 5245\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:46:LOG:DEFAULT: [ SAVE ] Writing to disk\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:46:LOG:DEFAULT: [ SAVE ] Saved 51176 ents\n11/20/2024 21:27:46:LOG:DEFAULT: [ SAVE ] Ending save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Sending Command: say hello
+[[DEBUG]]: [misfits] Sending Command: say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:52:LOG:DEFAULT: Executing console system command 'say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:27:52:LOG:DEFAULT: Executing console system command 'say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: say hello
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Sending Command: save
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:33:41:LOG:DEFAULT: Executing console system command 'save'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Initial Logs Received: 1
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:33:41:LOG:DEFAULT: [ SAVE ] Beginning save to server/my_server_identity/proceduralmap.3000.2492.51539607423.31.178.sav\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:33:41:LOG:DEFAULT: [ SAVE ] Begining save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:33:41:LOG:DEFAULT: [ SAVE ] writing ZIP/DEFLATE\n11/20/2024 21:33:41:LOG:DEFAULT: [ SAVE ] Saving 51165 entities\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:33:41:LOG:DEFAULT: [ SAVE ] savelist count  51165\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:33:41:LOG:DEFAULT: [ SAVE ] network live count 5276\n11/20/2024 21:33:42:LOG:DEFAULT: [ SAVE ] Writing to disk\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:33:42:LOG:DEFAULT: [ SAVE ] Saved 51165 ents\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:33:42:LOG:DEFAULT: [ SAVE ] Ending save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.375,"memory":{"used":2422,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3625,"memory":{"used":2422,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:15:LOG:DEFAULT: [event] Spawning cargo_plane for event_airdrop\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:15:LOG:DEFAULT: Executing console system command 'say <b>• <mark><color=#000000>[EVENT] • [AIRDROP] • [INBOUND]</color></mark>'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: say <b>• <mark><color=#000000>[EVENT] • [AIRDROP] • [INBOUND]</color></mark>
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3,"memory":{"used":2422,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:24:LOG:DEFAULT: Executing console system command 'serverinfo && 2024-11-20 20:34:23'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: serverinfo && 2024-11-20 20:34:23
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:24:LOG:DEFAULT: {\\n  \"Hostname\": \"<color=#FFA500>Misfits</color> <color=#FF8C00>3stack</color> <color=#FF7F50>2xloot</color> <color=#FF6347>4man</color> <color=#FF4500>offline protection</color> <color=#FF8C00>high-quality Rust server</color> <color=#FFA500>custom plugins</color> <color=#FF6347>premium gameplay</color> <color=#FF4500>unique features</color> <color=#FFA500>Rusty Wonka Rust</color> <color=#FF8C00>Saturn</color>\",\\n  \"MaxPlayers\": 100,\\n  \"Players\": 4,\\n  \"Queued\": 0,\\n  \"Joining\": 0,\\n  \"EntityCount\": 59034,\\n  \"GameTime\": \"13.21115\",\\n  \"Uptime\": 55939,\\n  \"Map\": \"Procedural Map\",\\n  \"Framerate\": 60.0,\\n  \"Memory\": 736,\\n  \"Collections\": 464,\\n  \"NetworkIn\": 0,\\n  \"NetworkOut\": 0,\\n  \"Restarting\": false,\\n  \"SaveCreatedTime\": \"11/14/2024 19:49:05\"\\n}\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:24:LOG:DEFAULT: Executing console system command 'zones.listcustomzones'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: zones.listcustomzones
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:24:LOG:DEFAULT: Name [warehouse] Enabled [True]\\nName [gas_station_1] Enabled [True]\\nName [oilrig_1] Enabled [True]\\nName [underwater_lab] Enabled [True]\\nName [oilrig_2] Enabled [True]\\nName [lighthouse_2] Enabled [True]\\nName [lighthouse] Enabled [True]\\nName [water_well_e] Enabled [True]\\nName [water_well_a] Enabled [True]\\nName [water_well_b] Enabled [True]\\nName [water_well_c] Enabled [True]\\nName [water_well_d] Enabled [True]\\nName [mining_quarry_b] Enabled [True]\\nName [mining_quarry_a] Enabled [True]\\nName [sphere_tank] Enabled [True]\\nName [satellite_dish] Enabled [True]\\nName [mining_quarry_c] Enabled [True]\\nName [radtown_small_3] Enabled [True]\\nName [powerplant_1] Enabled [True]\\nName [trainyard_1] Enabled [True]\\nName [military_tunnel] Enabled [True]\\nName [airfield_1] Enabled [True]\\nName [launch_site_1] Enabled [True]\\nName [harbor_2] Enabled [True]\\nName [harbor_1] Enabled [True]\\nName [((pisslexic))] Enabled [True]\\nName [((darkwolf240418))] Enabled [True]\\nName [((kmanning19))] Enabled [True]\\nName [((cptdoofy697385))] Enabled [True]\\nName [((trudekster))] Enabled [True]\\nName [((skykkjeskokkjen))] Enabled [True]\\nName [((itz reaperz hd))] Enabled [True]\\n\n11/20/2024 21:34:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n11/20/2024 21:34:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n11/20/2024 21:34:24:LOG:DEFAULT: Executing console system command 'users'.\n11/20/2024 21:34:24:LOG:DEFAULT: <slot:\"name\">\\n\"Flashbang5803\"\\n\"ITZ Reaperz HD\"\\n\"eVt Acti\"\\n\"Icantaimstr8874\"\\n4users\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: [misfits] Executing Match: users
+[[DEBUG]]: [misfits] Executing Match: relationshipmanager.teaminfo 8
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:29:LOG:DEFAULT: Executing console system command 'relationshipmanager.teaminfo 8'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:29:LOG:DEFAULT: Team 8 member list:\\nITZ Reaperz HD [43410] (LEADER)\\nIcantaimstr8874 [48761]\\neVt Acti [662864]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.34375,"memory":{"used":2422,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:34:WARNING:DEFAULT: Starting auto save\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:34:LOG:DEFAULT: [ SAVE ] Beginning save to server/my_server_identity/proceduralmap.3000.2492.51539607423.31.178.sav\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:38:LOG:DEFAULT: [ SAVE ] Begining save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:38:LOG:DEFAULT: [ SAVE ] writing ZIP/DEFLATE\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:38:LOG:DEFAULT: [ SAVE ] Saving 51182 entities\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:42:LOG:DEFAULT: [ SAVE ] savelist count  51068\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:42:LOG:DEFAULT: [ SAVE ] network live count 6340\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:42:LOG:DEFAULT: [ SAVE ] Writing to disk\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:42:LOG:DEFAULT: [ SAVE ] Saved 51182 ents\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:34:42:LOG:DEFAULT: [ SAVE ] Ending save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.45625,"memory":{"used":2422,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.275,"memory":{"used":2422,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.30625,"memory":{"used":2422,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:35:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:35:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2422,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.33125,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Sending Command: say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:35:59:LOG:DEFAULT: Executing console system command 'say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.34375,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.28125,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Executing Match: zones.listcustomzones
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:36:27:LOG:DEFAULT: Executing console system command 'zones.listcustomzones'.\n11/20/2024 21:36:27:LOG:DEFAULT: Name [warehouse] Enabled [True]\\nName [gas_station_1] Enabled [True]\\nName [oilrig_1] Enabled [True]\\nName [underwater_lab] Enabled [True]\\nName [oilrig_2] Enabled [True]\\nName [lighthouse_2] Enabled [True]\\nName [lighthouse] Enabled [True]\\nName [water_well_e] Enabled [True]\\nName [water_well_a] Enabled [True]\\nName [water_well_b] Enabled [True]\\nName [water_well_c] Enabled [True]\\nName [water_well_d] Enabled [True]\\nName [mining_quarry_b] Enabled [True]\\nName [mining_quarry_a] Enabled [True]\\nName [sphere_tank] Enabled [True]\\nName [satellite_dish] Enabled [True]\\nName [mining_quarry_c] Enabled [True]\\nName [radtown_small_3] Enabled [True]\\nName [powerplant_1] Enabled [True]\\nName [trainyard_1] Enabled [True]\\nName [military_tunnel] Enabled [True]\\nName [airfield_1] Enabled [True]\\nName [launch_site_1] Enabled [True]\\nName [harbor_2] Enabled [True]\\nName [harbor_1] Enabled [True]\\nName [((pisslexic))] Enabled [True]\\nName [((darkwolf240418))] Enabled [True]\\nName [((kmanning19))] Enabled [True]\\nName [((cptdoofy697385))] Enabled [True]\\nName [((trudekster))] Enabled [True]\\nName [((skykkjeskokkjen))] Enabled [True]\\nName [((itz reaperz hd))] Enabled [True]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:36:27:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:36:27:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n11/20/2024 21:36:27:LOG:DEFAULT: Executing console system command 'users'.\n11/20/2024 21:36:27:LOG:DEFAULT: <slot:\"name\">\\n\"Flashbang5803\"\\n\"ITZ Reaperz HD\"\\n\"eVt Acti\"\\n\"Icantaimstr8874\"\\n4users\\n\n11/20/2024 21:36:27:LOG:DEFAULT: Executing console system command 'serverinfo && 2024-11-20 20:36:23'.\n11/20/2024 21:36:27:LOG:DEFAULT: {\\n  \"Hostname\": \"<color=#FFA500>Misfits</color> <color=#FF8C00>3stack</color> <color=#FF7F50>2xloot</color> <color=#FF6347>4man</color> <color=#FF4500>offline protection</color> <color=#FF8C00>high-quality Rust server</color> <color=#FFA500>custom plugins</color> <color=#FF6347>premium gameplay</color> <color=#FF4500>unique features</color> <color=#FFA500>Rusty Wonka Rust</color> <color=#FF8C00>Saturn</color>\",\\n  \"MaxPlayers\": 100,\\n  \"Players\": 4,\\n  \"Queued\": 0,\\n  \"Joining\": 0,\\n  \"EntityCount\": 59091,\\n  \"GameTime\": \"13.57822\",\\n  \"Uptime\": 56062,\\n  \"Map\": \"Procedural Map\",\\n  \"Framerate\": 60.0,\\n  \"Memory\": 726,\\n  \"Collections\": 465,\\n  \"NetworkIn\": 0,\\n  \"NetworkOut\": 0,\\n  \"Restarting\": false,\\n  \"SaveCreatedTime\": \"11/14/2024 19:49:05\"\\n}\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: users
+[[DEBUG]]: [misfits] Executing Match: serverinfo && 2024-11-20 20:36:23
+[[DEBUG]]: [misfits] Executing Match: relationshipmanager.teaminfo 8
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:36:29:LOG:DEFAULT: Executing console system command 'relationshipmanager.teaminfo 8'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:36:29:LOG:DEFAULT: Team 8 member list:\\nITZ Reaperz HD [43410] (LEADER)\\nIcantaimstr8874 [48761]\\neVt Acti [662864]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.34375,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Sending Command: cmd say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:36:46:LOG:DEFAULT: Executing console system command 'cmd say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: cmd say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:36:46:LOG:DEFAULT: Command 'cmd say hello' not found\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Sending Command: cmd say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:36:56:LOG:DEFAULT: Executing console system command 'cmd say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: cmd say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:36:56:LOG:DEFAULT: Command 'cmd say hello' not found\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.35625,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.30625,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:37:25:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:37:25:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.24375,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Refreshing The Authentication Token
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: Token Refreshed
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.375,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.35,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.28125,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Sending Command: cmd say hello
+[[DEBUG]]: [misfits] Executing Match: cmd say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:38:20:LOG:DEFAULT: Executing console system command 'cmd say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:38:20:LOG:DEFAULT: Command 'cmd say hello' not found\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:38:24:LOG:DEFAULT: Executing console system command 'zones.listcustomzones'.\n11/20/2024 21:38:24:LOG:DEFAULT: Name [warehouse] Enabled [True]\\nName [gas_station_1] Enabled [True]\\nName [oilrig_1] Enabled [True]\\nName [underwater_lab] Enabled [True]\\nName [oilrig_2] Enabled [True]\\nName [lighthouse_2] Enabled [True]\\nName [lighthouse] Enabled [True]\\nName [water_well_e] Enabled [True]\\nName [water_well_a] Enabled [True]\\nName [water_well_b] Enabled [True]\\nName [water_well_c] Enabled [True]\\nName [water_well_d] Enabled [True]\\nName [mining_quarry_b] Enabled [True]\\nName [mining_quarry_a] Enabled [True]\\nName [sphere_tank] Enabled [True]\\nName [satellite_dish] Enabled [True]\\nName [mining_quarry_c] Enabled [True]\\nName [radtown_small_3] Enabled [True]\\nName [powerplant_1] Enabled [True]\\nName [trainyard_1] Enabled [True]\\nName [military_tunnel] Enabled [True]\\nName [airfield_1] Enabled [True]\\nName [launch_site_1] Enabled [True]\\nName [harbor_2] Enabled [True]\\nName [harbor_1] Enabled [True]\\nName [((pisslexic))] Enabled [True]\\nName [((darkwolf240418))] Enabled [True]\\nName [((kmanning19))] Enabled [True]\\nName [((cptdoofy697385))] Enabled [True]\\nName [((trudekster))] Enabled [True]\\nName [((skykkjeskokkjen))] Enabled [True]\\nName [((itz reaperz hd))] Enabled [True]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: zones.listcustomzones
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:38:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: [misfits] Executing Match: serverinfo && 2024-11-20 20:38:23
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:38:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n11/20/2024 21:38:24:LOG:DEFAULT: Executing console system command 'users'.\n11/20/2024 21:38:24:LOG:DEFAULT: <slot:\"name\">\\n\"Flashbang5803\"\\n\"ITZ Reaperz HD\"\\n\"eVt Acti\"\\n\"Icantaimstr8874\"\\n4users\\n\n11/20/2024 21:38:24:LOG:DEFAULT: Executing console system command 'serverinfo && 2024-11-20 20:38:23'.\n11/20/2024 21:38:24:LOG:DEFAULT: {\\n  \"Hostname\": \"<color=#FFA500>Misfits</color> <color=#FF8C00>3stack</color> <color=#FF7F50>2xloot</color> <color=#FF6347>4man</color> <color=#FF4500>offline protection</color> <color=#FF8C00>high-quality Rust server</color> <color=#FFA500>custom plugins</color> <color=#FF6347>premium gameplay</color> <color=#FF4500>unique features</color> <color=#FFA500>Rusty Wonka Rust</color> <color=#FF8C00>Saturn</color>\",\\n  \"MaxPlayers\": 100,\\n  \"Players\": 4,\\n  \"Queued\": 0,\\n  \"Joining\": 0,\\n  \"EntityCount\": 59137,\\n  \"GameTime\": \"13.98509\",\\n  \"Uptime\": 56179,\\n  \"Map\": \"Procedural Map\",\\n  \"Framerate\": 60.0,\\n  \"Memory\": 761,\\n  \"Collections\": 465,\\n  \"NetworkIn\": 0,\\n  \"NetworkOut\": 0,\\n  \"Restarting\": false,\\n  \"SaveCreatedTime\": \"11/14/2024 19:49:05\"\\n}\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: users
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:38:29:LOG:DEFAULT: Executing console system command 'relationshipmanager.teaminfo 8'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: relationshipmanager.teaminfo 8
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:38:29:LOG:DEFAULT: Team 8 member list:\\nITZ Reaperz HD [43410] (LEADER)\\nIcantaimstr8874 [48761]\\neVt Acti [662864]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3375,"memory":{"used":2400,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Executing Match: say hi
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:38:33:LOG:DEFAULT: Executing console system command 'say hi'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:38:34:LOG:DEFAULT: Executing console system command 'say hi'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: say hi
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.35625,"memory":{"used":2399,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2404,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.38125,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3625,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:34:WARNING:DEFAULT: Starting auto save\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:34:LOG:DEFAULT: [ SAVE ] Beginning save to server/my_server_identity/proceduralmap.3000.2492.51539607423.31.178.sav\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:38:LOG:DEFAULT: [ SAVE ] Begining save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:38:LOG:DEFAULT: [ SAVE ] writing ZIP/DEFLATE\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:38:LOG:DEFAULT: [ SAVE ] Saving 51186 entities\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:42:LOG:DEFAULT: [ SAVE ] savelist count  51094\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:42:LOG:DEFAULT: [ SAVE ] network live count 13665\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:42:LOG:DEFAULT: [ SAVE ] Writing to disk\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:42:LOG:DEFAULT: [ SAVE ] Saved 51186 ents\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:39:42:LOG:DEFAULT: [ SAVE ] Ending save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.4,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.33125,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.33125,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:40:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:40:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n11/20/2024 21:40:24:LOG:DEFAULT: Executing console system command 'zones.listcustomzones'.\n11/20/2024 21:40:24:LOG:DEFAULT: Name [warehouse] Enabled [True]\\nName [gas_station_1] Enabled [True]\\nName [oilrig_1] Enabled [True]\\nName [underwater_lab] Enabled [True]\\nName [oilrig_2] Enabled [True]\\nName [lighthouse_2] Enabled [True]\\nName [lighthouse] Enabled [True]\\nName [water_well_e] Enabled [True]\\nName [water_well_a] Enabled [True]\\nName [water_well_b] Enabled [True]\\nName [water_well_c] Enabled [True]\\nName [water_well_d] Enabled [True]\\nName [mining_quarry_b] Enabled [True]\\nName [mining_quarry_a] Enabled [True]\\nName [sphere_tank] Enabled [True]\\nName [satellite_dish] Enabled [True]\\nName [mining_quarry_c] Enabled [True]\\nName [radtown_small_3] Enabled [True]\\nName [powerplant_1] Enabled [True]\\nName [trainyard_1] Enabled [True]\\nName [military_tunnel] Enabled [True]\\nName [airfield_1] Enabled [True]\\nName [launch_site_1] Enabled [True]\\nName [harbor_2] Enabled [True]\\nName [harbor_1] Enabled [True]\\nName [((pisslexic))] Enabled [True]\\nName [((darkwolf240418))] Enabled [True]\\nName [((kmanning19))] Enabled [True]\\nName [((cptdoofy697385))] Enabled [True]\\nName [((trudekster))] Enabled [True]\\nName [((skykkjeskokkjen))] Enabled [True]\\nName [((itz reaperz hd))] Enabled [True]\\n\n11/20/2024 21:40:24:LOG:DEFAULT: Executing console system command 'serverinfo && 2024-11-20 20:40:23'.\n11/20/2024 21:40:24:LOG:DEFAULT: {\\n  \"Hostname\": \"<color=#FFA500>Misfits</color> <color=#FF8C00>3stack</color> <color=#FF7F50>2xloot</color> <color=#FF6347>4man</color> <color=#FF4500>offline protection</color> <color=#FF8C00>high-quality Rust server</color> <color=#FFA500>custom plugins</color> <color=#FF6347>premium gameplay</color> <color=#FF4500>unique features</color> <color=#FFA500>Rusty Wonka Rust</color> <color=#FF8C00>Saturn</color>\",\\n  \"MaxPlayers\": 100,\\n  \"Players\": 4,\\n  \"Queued\": 0,\\n  \"Joining\": 0,\\n  \"EntityCount\": 59089,\\n  \"GameTime\": \"14.46811\",\\n  \"Uptime\": 56299,\\n  \"Map\": \"Procedural Map\",\\n  \"Framerate\": 60.0,\\n  \"Memory\": 734,\\n  \"Collections\": 466,\\n  \"NetworkIn\": 0,\\n  \"NetworkOut\": 0,\\n  \"Restarting\": false,\\n  \"SaveCreatedTime\": \"11/14/2024 19:49:05\"\\n}\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: serverinfo && 2024-11-20 20:40:23
+[[DEBUG]]: [misfits] Executing Match: zones.listcustomzones
+[[DEBUG]]: [misfits] Executing Match: users
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:40:24:LOG:DEFAULT: Executing console system command 'users'.\n11/20/2024 21:40:24:LOG:DEFAULT: <slot:\"name\">\\n\"Flashbang5803\"\\n\"ITZ Reaperz HD\"\\n\"eVt Acti\"\\n\"Icantaimstr8874\"\\n4users\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: relationshipmanager.teaminfo 8
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:40:29:LOG:DEFAULT: Executing console system command 'relationshipmanager.teaminfo 8'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:40:29:LOG:DEFAULT: Team 8 member list:\\nITZ Reaperz HD [43410] (LEADER)\\nIcantaimstr8874 [48761]\\neVt Acti [662864]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.275,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3375,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Sending Command: save
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:09:LOG:DEFAULT: Executing console system command 'save'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: [misfits] Initial Logs Received: 1
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:09:LOG:DEFAULT: [ SAVE ] Beginning save to server/my_server_identity/proceduralmap.3000.2492.51539607423.31.178.sav\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:09:LOG:DEFAULT: [ SAVE ] Begining save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:09:LOG:DEFAULT: [ SAVE ] writing ZIP/DEFLATE\n11/20/2024 21:41:09:LOG:DEFAULT: [ SAVE ] Saving 51179 entities\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:10:LOG:DEFAULT: [ SAVE ] savelist count  51179\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:10:LOG:DEFAULT: [ SAVE ] network live count 5337\n11/20/2024 21:41:10:LOG:DEFAULT: [ SAVE ] Writing to disk\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:10:LOG:DEFAULT: [ SAVE ] Saved 51179 ents\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:10:LOG:DEFAULT: [ SAVE ] Ending save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3375,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Sending Command: cmd say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:30:LOG:DEFAULT: Executing console system command 'cmd say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: cmd say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:41:30:LOG:DEFAULT: Command 'cmd say hello' not found\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2625,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.31875,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:42:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: [misfits] Executing Match: serverinfo && 2024-11-20 20:42:23
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:42:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n11/20/2024 21:42:24:LOG:DEFAULT: Executing console system command 'serverinfo && 2024-11-20 20:42:23'.\n11/20/2024 21:42:24:LOG:DEFAULT: {\\n  \"Hostname\": \"<color=#FFA500>Misfits</color> <color=#FF8C00>3stack</color> <color=#FF7F50>2xloot</color> <color=#FF6347>4man</color> <color=#FF4500>offline protection</color> <color=#FF8C00>high-quality Rust server</color> <color=#FFA500>custom plugins</color> <color=#FF6347>premium gameplay</color> <color=#FF4500>unique features</color> <color=#FFA500>Rusty Wonka Rust</color> <color=#FF8C00>Saturn</color>\",\\n  \"MaxPlayers\": 100,\\n  \"Players\": 4,\\n  \"Queued\": 0,\\n  \"Joining\": 0,\\n  \"EntityCount\": 59073,\\n  \"GameTime\": \"15.0275\",\\n  \"Uptime\": 56419,\\n  \"Map\": \"Procedural Map\",\\n  \"Framerate\": 60.0,\\n  \"Memory\": 728,\\n  \"Collections\": 467,\\n  \"NetworkIn\": 0,\\n  \"NetworkOut\": 0,\\n  \"Restarting\": false,\\n  \"SaveCreatedTime\": \"11/14/2024 19:49:05\"\\n}\n11/20/2024 21:42:24:LOG:DEFAULT: Executing console system command 'zones.listcustomzones'.\n11/20/2024 21:42:24:LOG:DEFAULT: Name [warehouse] Enabled [True]\\nName [gas_station_1] Enabled [True]\\nName [oilrig_1] Enabled [True]\\nName [underwater_lab] Enabled [True]\\nName [oilrig_2] Enabled [True]\\nName [lighthouse_2] Enabled [True]\\nName [lighthouse] Enabled [True]\\nName [water_well_e] Enabled [True]\\nName [water_well_a] Enabled [True]\\nName [water_well_b] Enabled [True]\\nName [water_well_c] Enabled [True]\\nName [water_well_d] Enabled [True]\\nName [mining_quarry_b] Enabled [True]\\nName [mining_quarry_a] Enabled [True]\\nName [sphere_tank] Enabled [True]\\nName [satellite_dish] Enabled [True]\\nName [mining_quarry_c] Enabled [True]\\nName [radtown_small_3] Enabled [True]\\nName [powerplant_1] Enabled [True]\\nName [trainyard_1] Enabled [True]\\nName [military_tunnel] Enabled [True]\\nName [airfield_1] Enabled [True]\\nName [launch_site_1] Enabled [True]\\nName [harbor_2] Enabled [True]\\nName [harbor_1] Enabled [True]\\nName [((pisslexic))] Enabled [True]\\nName [((darkwolf240418))] Enabled [True]\\nName [((kmanning19))] Enabled [True]\\nName [((cptdoofy697385))] Enabled [True]\\nName [((trudekster))] Enabled [True]\\nName [((skykkjeskokkjen))] Enabled [True]\\nName [((itz reaperz hd))] Enabled [True]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: zones.listcustomzones
+[[DEBUG]]: [misfits] Executing Match: users
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:42:24:LOG:DEFAULT: Executing console system command 'users'.\n11/20/2024 21:42:24:LOG:DEFAULT: <slot:\"name\">\\n\"Flashbang5803\"\\n\"ITZ Reaperz HD\"\\n\"eVt Acti\"\\n\"Icantaimstr8874\"\\n4users\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: relationshipmanager.teaminfo 8
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:42:29:LOG:DEFAULT: Executing console system command 'relationshipmanager.teaminfo 8'.\n11/20/2024 21:42:29:LOG:DEFAULT: Team 8 member list:\\nITZ Reaperz HD [43410] (LEADER)\\nIcantaimstr8874 [48761]\\neVt Acti [662864]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.31875,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:42:43:LOG:DEFAULT: [CHAT LOCAL] Icantaimstr8874 : d11_quick_chat_orders_slot_7 \n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: events.remainingtime
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:42:43:LOG:DEFAULT: Executing console system command 'events.remainingtime'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:42:43:LOG:DEFAULT: Event Remaining Times:\\nevent_airdrop: 21.07 remaining hours\\nevent_cargoheli: 13.81 remaining hours\\nevent_cargoship: 3.79 remaining hours\\nevent_helicopter: 20.84 remaining hours\\nevent_halloween: 14.00 remaining hours\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: say » <b><color=#FFC300>[ HELI:</color> 52m<color=#FFC300> ]</color> ~ <color=#FFC300>[ CARGO:</color> 9m<color=#FFC300> ]</color></b>
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:42:43:LOG:DEFAULT: Executing console system command 'say » <b><color=#FFC300>[ HELI:</color> 52m<color=#FFC300> ]</color> ~ <color=#FFC300>[ CARGO:</color> 9m<color=#FFC300> ]</color></b>'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:42:44:LOG:DEFAULT: Executing console system command 'say » <b><color=#FFC300>[ CHINOOK:</color> 34m<color=#FFC300> ]</color> ~ <color=#FFC300>[ AIRDROP:</color> 52m<color=#FFC300> ]</color></b>'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: say » <b><color=#FFC300>[ CHINOOK:</color> 34m<color=#FFC300> ]</color> ~ <color=#FFC300>[ AIRDROP:</color> 52m<color=#FFC300> ]</color></b>
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2875,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.24375,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3125,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:43:26:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n11/20/2024 21:43:26:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.325,"memory":{"used":2406,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Executing Match: SAY » <B>EDIT SCHEDULER</b>
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:43:33:LOG:DEFAULT: Executing console system command 'SAY » <B>EDIT SCHEDULER</b>'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:43:34:LOG:DEFAULT: Executing console system command 'SAY » <B>EDIT SCHEDULER</B>'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: SAY » <B>EDIT SCHEDULER</B>
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.25,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.35,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3125,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Executing Match: serverinfo && 2024-11-20 20:44:23
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:24:LOG:DEFAULT: Executing console system command 'serverinfo && 2024-11-20 20:44:23'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:24:LOG:DEFAULT: {\\n  \"Hostname\": \"<color=#FFA500>Misfits</color> <color=#FF8C00>3stack</color> <color=#FF7F50>2xloot</color> <color=#FF6347>4man</color> <color=#FF4500>offline protection</color> <color=#FF8C00>high-quality Rust server</color> <color=#FFA500>custom plugins</color> <color=#FF6347>premium gameplay</color> <color=#FF4500>unique features</color> <color=#FFA500>Rusty Wonka Rust</color> <color=#FF8C00>Saturn</color>\",\\n  \"MaxPlayers\": 100,\\n  \"Players\": 4,\\n  \"Queued\": 0,\\n  \"Joining\": 0,\\n  \"EntityCount\": 59085,\\n  \"GameTime\": \"15.67857\",\\n  \"Uptime\": 56539,\\n  \"Map\": \"Procedural Map\",\\n  \"Framerate\": 60.0,\\n  \"Memory\": 762,\\n  \"Collections\": 467,\\n  \"NetworkIn\": 0,\\n  \"NetworkOut\": 0,\\n  \"Restarting\": false,\\n  \"SaveCreatedTime\": \"11/14/2024 19:49:05\"\\n}\n11/20/2024 21:44:24:LOG:DEFAULT: Executing console system command 'users'.\n11/20/2024 21:44:24:LOG:DEFAULT: <slot:\"name\">\\n\"Flashbang5803\"\\n\"ITZ Reaperz HD\"\\n\"eVt Acti\"\\n\"Icantaimstr8874\"\\n4users\\n\n11/20/2024 21:44:24:LOG:DEFAULT: Executing console system command 'zones.listcustomzones'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: users
+[[DEBUG]]: [misfits] Executing Match: zones.listcustomzones
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:24:LOG:DEFAULT: Name [warehouse] Enabled [True]\\nName [gas_station_1] Enabled [True]\\nName [oilrig_1] Enabled [True]\\nName [underwater_lab] Enabled [True]\\nName [oilrig_2] Enabled [True]\\nName [lighthouse_2] Enabled [True]\\nName [lighthouse] Enabled [True]\\nName [water_well_e] Enabled [True]\\nName [water_well_a] Enabled [True]\\nName [water_well_b] Enabled [True]\\nName [water_well_c] Enabled [True]\\nName [water_well_d] Enabled [True]\\nName [mining_quarry_b] Enabled [True]\\nName [mining_quarry_a] Enabled [True]\\nName [sphere_tank] Enabled [True]\\nName [satellite_dish] Enabled [True]\\nName [mining_quarry_c] Enabled [True]\\nName [radtown_small_3] Enabled [True]\\nName [powerplant_1] Enabled [True]\\nName [trainyard_1] Enabled [True]\\nName [military_tunnel] Enabled [True]\\nName [airfield_1] Enabled [True]\\nName [launch_site_1] Enabled [True]\\nName [harbor_2] Enabled [True]\\nName [harbor_1] Enabled [True]\\nName [((pisslexic))] Enabled [True]\\nName [((darkwolf240418))] Enabled [True]\\nName [((kmanning19))] Enabled [True]\\nName [((cptdoofy697385))] Enabled [True]\\nName [((trudekster))] Enabled [True]\\nName [((skykkjeskokkjen))] Enabled [True]\\nName [((itz reaperz hd))] Enabled [True]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: relationshipmanager.teaminfo 8
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:29:LOG:DEFAULT: Executing console system command 'relationshipmanager.teaminfo 8'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:29:LOG:DEFAULT: Team 8 member list:\\nITZ Reaperz HD [43410] (LEADER)\\nIcantaimstr8874 [48761]\\neVt Acti [662864]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.38125,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:34:WARNING:DEFAULT: Starting auto save\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:34:LOG:DEFAULT: [ SAVE ] Beginning save to server/my_server_identity/proceduralmap.3000.2492.51539607423.31.178.sav\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:38:LOG:DEFAULT: [ SAVE ] Begining save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:38:LOG:DEFAULT: [ SAVE ] writing ZIP/DEFLATE\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:38:LOG:DEFAULT: [ SAVE ] Saving 51162 entities\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:42:LOG:DEFAULT: [ SAVE ] savelist count  51050\n11/20/2024 21:44:42:LOG:DEFAULT: [ SAVE ] network live count 12569\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:42:LOG:DEFAULT: [ SAVE ] Writing to disk\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:42:LOG:DEFAULT: [ SAVE ] Saved 51162 ents\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:44:42:LOG:DEFAULT: [ SAVE ] Ending save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.475,"memory":{"used":2406,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Logging in to G-Portal
+[[DEBUG]]: Connecting to WebSocket Server
+[[DEBUG]]: Adding Server: misfits
+[[DEBUG]]: [misfits] Fetching Server ID
+[[DEBUG]]: WebSocket Connection Established
+[[DEBUG]]: Authenticating WebSocket Connection
+[[DEBUG]]: WebSocket Message Received: {"type":"connection_ack"}
+[[INFO]]: RCE.JS - Authenticated
+[[DEBUG]]: [misfits] Fetching Server Status
+[[DEBUG]]: [misfits] Subscribed to Console Messages
+[[DEBUG]]: [misfits] Adding WebSocket Subscription
+[[DEBUG]]: [misfits] Subscribed to Service Sensors
+[[DEBUG]]: [misfits] Subscribed to Service State
+[[DEBUG]]: [misfits] WebSocket Subscription Added
+[[DEBUG]]: [misfits] Server Status: RUNNING
+[[DEBUG]]: [misfits] Sending Command: save
+[[DEBUG]]: [misfits] Updating Server
+[[INFO]]: [misfits] Server Ready
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:11:LOG:DEFAULT: Executing console system command 'save'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Initial Logs Received: 1
+[[DEBUG]]: [misfits] Updating Server
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:11:LOG:DEFAULT: [ SAVE ] Beginning save to server/my_server_identity/proceduralmap.3000.2492.51539607423.31.178.sav\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:12:LOG:DEFAULT: [ SAVE ] Begining save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:12:LOG:DEFAULT: [ SAVE ] writing ZIP/DEFLATE\n11/20/2024 21:45:12:LOG:DEFAULT: [ SAVE ] Saving 51160 entities\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:12:LOG:DEFAULT: [ SAVE ] savelist count  51160\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:12:LOG:DEFAULT: [ SAVE ] network live count 5312\n11/20/2024 21:45:12:LOG:DEFAULT: [ SAVE ] Writing to disk\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:12:LOG:DEFAULT: [ SAVE ] Saved 51160 ents\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:12:LOG:DEFAULT: [ SAVE ] Ending save attempt\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.36875,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Sending Command: say hello
+[[DEBUG]]: [misfits] Executing Match: say hello
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:45:25:LOG:DEFAULT: Executing console system command 'say hello'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3125,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.2875,"memory":{"used":2406,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.30625,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.29375,"memory":{"used":2406,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Executing Match: users
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:46:24:LOG:DEFAULT: Executing console system command 'users'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: serverinfo && 2024-11-20 20:46:23
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:46:24:LOG:DEFAULT: <slot:\"name\">\\n\"Flashbang5803\"\\n\"ITZ Reaperz HD\"\\n\"eVt Acti\"\\n\"Icantaimstr8874\"\\n4users\\n\n11/20/2024 21:46:24:LOG:DEFAULT: Executing console system command 'serverinfo && 2024-11-20 20:46:23'.\n11/20/2024 21:46:24:LOG:DEFAULT: {\\n  \"Hostname\": \"<color=#FFA500>Misfits</color> <color=#FF8C00>3stack</color> <color=#FF7F50>2xloot</color> <color=#FF6347>4man</color> <color=#FF4500>offline protection</color> <color=#FF8C00>high-quality Rust server</color> <color=#FFA500>custom plugins</color> <color=#FF6347>premium gameplay</color> <color=#FF4500>unique features</color> <color=#FFA500>Rusty Wonka Rust</color> <color=#FF8C00>Saturn</color>\",\\n  \"MaxPlayers\": 100,\\n  \"Players\": 4,\\n  \"Queued\": 0,\\n  \"Joining\": 0,\\n  \"EntityCount\": 59081,\\n  \"GameTime\": \"16.43241\",\\n  \"Uptime\": 56659,\\n  \"Map\": \"Procedural Map\",\\n  \"Framerate\": 60.0,\\n  \"Memory\": 745,\\n  \"Collections\": 468,\\n  \"NetworkIn\": 0,\\n  \"NetworkOut\": 0,\\n  \"Restarting\": false,\\n  \"SaveCreatedTime\": \"11/14/2024 19:49:05\"\\n}\n11/20/2024 21:46:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n11/20/2024 21:46:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n11/20/2024 21:46:24:LOG:DEFAULT: Executing console system command 'zones.listcustomzones'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: zones.listcustomzones
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:46:24:LOG:DEFAULT: Name [warehouse] Enabled [True]\\nName [gas_station_1] Enabled [True]\\nName [oilrig_1] Enabled [True]\\nName [underwater_lab] Enabled [True]\\nName [oilrig_2] Enabled [True]\\nName [lighthouse_2] Enabled [True]\\nName [lighthouse] Enabled [True]\\nName [water_well_e] Enabled [True]\\nName [water_well_a] Enabled [True]\\nName [water_well_b] Enabled [True]\\nName [water_well_c] Enabled [True]\\nName [water_well_d] Enabled [True]\\nName [mining_quarry_b] Enabled [True]\\nName [mining_quarry_a] Enabled [True]\\nName [sphere_tank] Enabled [True]\\nName [satellite_dish] Enabled [True]\\nName [mining_quarry_c] Enabled [True]\\nName [radtown_small_3] Enabled [True]\\nName [powerplant_1] Enabled [True]\\nName [trainyard_1] Enabled [True]\\nName [military_tunnel] Enabled [True]\\nName [airfield_1] Enabled [True]\\nName [launch_site_1] Enabled [True]\\nName [harbor_2] Enabled [True]\\nName [harbor_1] Enabled [True]\\nName [((pisslexic))] Enabled [True]\\nName [((darkwolf240418))] Enabled [True]\\nName [((kmanning19))] Enabled [True]\\nName [((cptdoofy697385))] Enabled [True]\\nName [((trudekster))] Enabled [True]\\nName [((skykkjeskokkjen))] Enabled [True]\\nName [((itz reaperz hd))] Enabled [True]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: relationshipmanager.teaminfo 8
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:46:29:LOG:DEFAULT: Executing console system command 'relationshipmanager.teaminfo 8'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:46:29:LOG:DEFAULT: Team 8 member list:\\nITZ Reaperz HD [43410] (LEADER)\\nIcantaimstr8874 [48761]\\neVt Acti [662864]\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.275,"memory":{"used":2406,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.33125,"memory":{"used":2406,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.31875,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.3125,"memory":{"used":2406,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:47:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:47:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.275,"memory":{"used":2405,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.30625,"memory":{"used":2408,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.38125,"memory":{"used":2408,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: Sending WebSocket Heartbeat
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"serviceSensors":{"cpuTotal":2.30625,"memory":{"used":2408,"__typename":"MemorySensor"},"__typename":"ServiceSensors"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:48:24:LOG:DEFAULT: Executing console system command 'serverinfo && 2024-11-20 20:48:23'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: serverinfo && 2024-11-20 20:48:23
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:48:24:LOG:DEFAULT: {\\n  \"Hostname\": \"<color=#FFA500>Misfits</color> <color=#FF8C00>3stack</color> <color=#FF7F50>2xloot</color> <color=#FF6347>4man</color> <color=#FF4500>offline protection</color> <color=#FF8C00>high-quality Rust server</color> <color=#FFA500>custom plugins</color> <color=#FF6347>premium gameplay</color> <color=#FF4500>unique features</color> <color=#FFA500>Rusty Wonka Rust</color> <color=#FF8C00>Saturn</color>\",\\n  \"MaxPlayers\": 100,\\n  \"Players\": 4,\\n  \"Queued\": 0,\\n  \"Joining\": 0,\\n  \"EntityCount\": 59047,\\n  \"GameTime\": \"17.31105\",\\n  \"Uptime\": 56779,\\n  \"Map\": \"Procedural Map\",\\n  \"Framerate\": 60.0,\\n  \"Memory\": 734,\\n  \"Collections\": 469,\\n  \"NetworkIn\": 0,\\n  \"NetworkOut\": 0,\\n  \"Restarting\": false,\\n  \"SaveCreatedTime\": \"11/14/2024 19:49:05\"\\n}\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: zones.listcustomzones
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:48:24:LOG:DEFAULT: Executing console system command 'zones.listcustomzones'.\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: users
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:48:24:LOG:DEFAULT: Name [warehouse] Enabled [True]\\nName [gas_station_1] Enabled [True]\\nName [oilrig_1] Enabled [True]\\nName [underwater_lab] Enabled [True]\\nName [oilrig_2] Enabled [True]\\nName [lighthouse_2] Enabled [True]\\nName [lighthouse] Enabled [True]\\nName [water_well_e] Enabled [True]\\nName [water_well_a] Enabled [True]\\nName [water_well_b] Enabled [True]\\nName [water_well_c] Enabled [True]\\nName [water_well_d] Enabled [True]\\nName [mining_quarry_b] Enabled [True]\\nName [mining_quarry_a] Enabled [True]\\nName [sphere_tank] Enabled [True]\\nName [satellite_dish] Enabled [True]\\nName [mining_quarry_c] Enabled [True]\\nName [radtown_small_3] Enabled [True]\\nName [powerplant_1] Enabled [True]\\nName [trainyard_1] Enabled [True]\\nName [military_tunnel] Enabled [True]\\nName [airfield_1] Enabled [True]\\nName [launch_site_1] Enabled [True]\\nName [harbor_2] Enabled [True]\\nName [harbor_1] Enabled [True]\\nName [((pisslexic))] Enabled [True]\\nName [((darkwolf240418))] Enabled [True]\\nName [((kmanning19))] Enabled [True]\\nName [((cptdoofy697385))] Enabled [True]\\nName [((trudekster))] Enabled [True]\\nName [((skykkjeskokkjen))] Enabled [True]\\nName [((itz reaperz hd))] Enabled [True]\\n\n11/20/2024 21:48:24:LOG:DEFAULT: Executing console system command 'users'.\n11/20/2024 21:48:24:LOG:DEFAULT: <slot:\"name\">\\n\"Flashbang5803\"\\n\"ITZ Reaperz HD\"\\n\"eVt Acti\"\\n\"Icantaimstr8874\"\\n4users\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: [misfits] Executing Match: rf.listboardcaster
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:48:24:LOG:DEFAULT: Broadcasters:\\nTotal: 0\\n\n","__typename":"ConsoleMessage"}}}}
+[[DEBUG]]: WebSocket Message Received: {"type":"data","id":"misfits","payload":{"data":{"consoleMessages":{"stream":"public_log_output","message":"11/20/2024 21:48:24:LOG:DEFAULT: Executing console system command 'rf.listboardcaster'.\n","__typename":"ConsoleMessage"}}}}

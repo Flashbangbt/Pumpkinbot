@@ -1,0 +1,157 @@
+# Pumpkin Bot
+
+Pumpkin Bot is a Discord bot that allows users to execute commands to interact with a G-Portal server. The bot currently supports two commands:
+- `cmd`: Send any custom command to the G-Portal server.
+- `say`: Send a message to the G-Portal server.
+
+## Features
+- **`cmd` Command**: Sends a custom command to the G-Portal server.
+- **`say` Command**: Sends an in-game message to the G-Portal server.
+- Both commands are linked to the server through a G-Portal API.
+
+## Prerequisites
+
+To run Pumpkin Bot locally or on a server, you'll need the following:
+
+1. **Node.js**: The bot is built with TypeScript and requires Node.js.
+   - Download and install it from: https://nodejs.org/
+
+2. **G-Portal API Access**: Ensure you have access to the G-Portal API and the necessary server credentials.
+   
+3. **Discord Bot Token**: You'll need to create a Discord bot through the Discord Developer Portal and get your bot token.
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/pumpkin-bot.git
+cd pumpkin-bot
+```
+
+### 2. Install Dependencies
+
+Make sure to install all the dependencies listed in `package.json`:
+
+```bash
+npm install
+```
+
+### 3. Set Up `.env` File
+
+Create a `.env` file in the root directory of your project to store your environment variables. This file should contain the following:
+
+```env
+BOT_TOKEN=your-discord-bot-token
+GPORTAL_API_KEY=your-gportal-api-key
+GPORTAL_SERVER_ID=your-server-id
+```
+
+- `BOT_TOKEN`: Your Discord bot token.
+- `GPORTAL_API_KEY`: Your G-Portal API key.
+- `GPORTAL_SERVER_ID`: Your server's ID on G-Portal.
+
+### 4. Run the Bot Locally
+
+Once you've configured your `.env` file, you can start the bot with the following command:
+
+```bash
+npm run dev
+```
+
+This will start the bot locally, and it should connect to Discord and G-Portal.
+
+### 5. Commands Overview
+
+#### `cmd` Command
+
+Sends any custom command to the G-Portal server.
+
+**Usage**: `/cmd <text>`
+
+- Example: `/cmd say hello`
+- This will send the `hello` command to the G-Portal server.
+
+#### `say` Command
+
+Sends an in-game message to the G-Portal server.
+
+**Usage**: `/say <text>`
+
+- Example: `/say Hello everyone!`
+- This will send the message `Hello everyone!` to the G-Portal server.
+
+### 6. Deploy to a Server
+
+If you're ready to deploy the bot to a server, follow these steps:
+
+1. **Clone the Repository on Your Server**:
+   
+   SSH into your server and clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/pumpkin-bot.git
+   cd pumpkin-bot
+   ```
+
+2. **Install Dependencies**:
+
+   Run the following to install all required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. **Create `.env` File on the Server**:
+
+   Create the `.env` file on your server with the same configuration as locally.
+
+4. **Start the Bot**:
+
+   Start the bot manually or use PM2 for production:
+
+   ```bash
+   npm run dev  # For manual start
+   ```
+
+   Or install PM2 to keep the bot running continuously:
+
+   ```bash
+   npm install -g pm2
+   pm2 start npm --name "pumpkin-bot" -- run dev
+   pm2 save
+   ```
+
+5. **Push Updates**:
+
+   To push updates to the server, simply commit and push changes locally, then pull them on the server:
+
+   ```bash
+   git add .
+   git commit -m "Updated bot functionality"
+   git push origin master
+   ```
+
+   On the server:
+
+   ```bash
+   git pull origin master
+   pm2 restart pumpkin-bot
+   ```
+
+## Contributing
+
+Feel free to open issues or pull requests if you'd like to contribute to Pumpkin Bot!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Credits
+
+- **RCE.js**: This bot uses the [RCE.js](https://rcejs.gitbook.io/rcejs) library to interact with the G-Portal API.
+```
+
+
