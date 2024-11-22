@@ -11,13 +11,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_js_1 = require("discord.js");
 const bot_1 = require("../bot"); // Ensure this is correctly imported
+// Define the cmd command structure
 const cmdCommand = {
     name: 'cmd',
     description: 'Send a command to G-Portal.',
     execute(interaction) {
         return __awaiter(this, void 0, void 0, function* () {
             var _a;
-            // Get the text input from the user
+            if (!interaction.isCommand())
+                return;
             const text = (_a = interaction.options.get('text')) === null || _a === void 0 ? void 0 : _a.value;
             console.log(`Received 'cmd' command from Discord: ${text}`);
             // Check if text was provided
@@ -27,7 +29,7 @@ const cmdCommand = {
                 return;
             }
             // Send the command to the server
-            console.log(`Sending command to G-Portal:${text}`);
+            console.log(`Sending command to G-Portal: ${text}`);
             try {
                 // Make sure to replace 'misfits' with your actual server name or ID if needed
                 yield bot_1.rce.servers.command('misfits', `${text}`);
@@ -43,20 +45,13 @@ const cmdCommand = {
         });
     },
     registerCommand() {
-        // Define the options for the "cmd" command
-        const options = [
-            {
-                type: discord_js_1.ApplicationCommandOptionType.String,
-                name: 'text',
-                description: 'Command to send to G-Portal.',
-                required: true,
-            },
-        ];
-        return {
-            name: 'cmd',
-            description: 'Send a command to G-Portal.',
-            options,
-        };
-    },
+        return new discord_js_1.SlashCommandBuilder()
+            .setName('cmd')
+            .setDescription('Send a command to G-Portal.')
+            .addStringOption(option => option.setName('text')
+            .setDescription('Command to send to G-Portal.')
+            .setRequired(true))
+            .toJSON(); // Return the command in JSON format for Discord API registration
+    }
 };
 exports.default = cmdCommand;

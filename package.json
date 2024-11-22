@@ -1,11 +1,11 @@
 {
   "name": "pumpkin-bot",
   "version": "1.0.0",
-  "main": "dist/bot.js",
+  "main": "dist/server.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/bot.js",
-    "dev": "ts-node src/bot.ts",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,12 +14,18 @@
   "description": "",
   "dependencies": {
     "@discordjs/rest": "^2.4.0",
+    "better-sqlite3": "^11.5.0",
     "discord-api-types": "^0.37.105",
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-cron": "^3.0.3",
     "rce.js": "github:b1nzeex/rce.js"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node-cron": "^3.0.11",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.6.3"
   }
 }

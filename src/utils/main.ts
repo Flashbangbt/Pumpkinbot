@@ -1,85 +1,89 @@
-import { Client, GatewayIntentBits, ApplicationCommandDataResolvable } from 'discord.js';
-import cmdCommand from '../commands/cmd'; // Correct path to cmd command
-import sayCommand from '../commands/say'; // Correct path to say command
 
-// Initialize the Discord client
-const client = new Client({
-  intents: [GatewayIntentBits.Guilds],
-});
+import { Client, ApplicationCommandDataResolvable, CommandInteraction, CacheType, TextChannel, Interaction } from 'discord.js';
+import cmdCommand from '../commands/cmd';
+import sayCommand from '../commands/say';
+import cmdDelete from '../commands/cmd-delete';
+import cmdAddCommand from '../commands/cmdadd';
+import cmdGroupAddCommand from '../commands/cmdgroup-add';
+import cmdGroupDeleteCommand from '../commands/cmdgroup-delete';
+import timedCmd from '../commands/timedcmd';
+export function setupEventHandlers(client: Client) {
+    client.on('interactionCreate', async (interaction: Interaction) => {
+        if (!interaction.isCommand()) return;
 
-// Function to register commands
-async function registerCommands() {
-  const commands: ApplicationCommandDataResolvable[] = [
-    cmdCommand.registerCommand(),
-    sayCommand.registerCommand(),
-  ];
+        const cmdInteraction = interaction as CommandInteraction<CacheType>;
+        console.log(`Received command: ${cmdInteraction.commandName}`);
 
-  try {
-    // Register the commands with Discord
-    await client.application?.commands.set(commands);
-    console.log('Commands registered successfully.');
-
-    // Log details of registered commands
-    commands.forEach((command) => {
-      if ('name' in command) {
-        console.log(`Registered command: ${command.name}`);
-      } else {
-        console.error('Command object does not contain a "name" property:', command);
-      }
+        try {
+            switch (cmdInteraction.commandName) {
+                case 'cmd':
+                    await cmdCommand.execute(cmdInteraction);
+                    break;
+                case 'say':
+                    await sayCommand.execute(cmdInteraction);
+                    break;
+                case 'cmd-delete':
+                    await cmdDelete.execute(cmdInteraction);
+                    break;
+                case 'cmdadd':
+                    await cmdAddCommand.execute(cmdInteraction);
+                    break;
+                case 'cmdgroup-add':
+                    await cmdGroupAddCommand.execute(cmdInteraction);
+                    break;
+                case 'cmd-group-delete':
+                    await cmdGroupDeleteCommand.execute(cmdInteraction);
+                    break;
+                case 'timedcmd':
+                    await timedCmd.execute(cmdInteraction);
+                    break;
+                default:
+                    await cmdInteraction.reply({ content: 'Unknown command!', ephemeral: true });
+            }
+        } catch (error) {
+            console.error('Error executing command:', error);
+            await cmdInteraction.reply({ content: 'An error occurred while executing this command.', ephemeral: true });
+        }
     });
-  } catch (error) {
-    console.error('Error registering commands:', error);
-  }
 }
 
-// Export initializeCommands for use in bot.ts
-export async function initializeCommands(client: Client) {
-  console.log('Initializing commands...');
-  await registerCommands();
-}
+export const registerAllCommands = async (client: Client): Promise<ApplicationCommandDataResolvable[]> => {
+    const commands: ApplicationCommandDataResolvable[] = [
+        cmdCommand.registerCommand(),
+        sayCommand.registerCommand(),
+        cmdDelete.registerCommand(),
+        cmdAddCommand.registerCommand(),
+        cmdGroupAddCommand.registerCommand(),
+        cmdGroupDeleteCommand.registerCommand(),
+        timedCmd.registerCommand(),
+    ];
 
-// Attach the interaction handler
-client.on('interactionCreate', async (interaction) => {
-  if (!interaction.isCommand()) return;
-
-  const { commandName } = interaction;
-
-  try {
-    if (commandName === 'cmd') {
-      console.log(`Executing 'cmd' command for user ${interaction.user.tag}.`);
-      await cmdCommand.execute(interaction);
-    } else if (commandName === 'say') {
-      console.log(`Executing 'say' command for user ${interaction.user.tag}.`);
-      await sayCommand.execute(interaction);
-    } else {
-      console.error(`Unhandled command: ${commandName}`);
-      await interaction.reply('Command not recognized.');
+    
+    
+    try {
+        await client.application?.commands.set(commands);
+        console.log('Commands registered successfully');
+        
+        const channel = client.channels.cache.get('1308880384360058971') as TextChannel;
+        if (channel) {
+            await channel.send('Commands have been registered:');
+            for (const command of commands) {
+                if ('name' in command) {
+                    await channel.send(`/${command.name}`);
+                }
+            }
+        }
+    } catch (error) {
+        console.error('Failed to register commands:', error);
+        throw error;
     }
-  } catch (error) {
-    console.error(`Error handling command '${commandName}':`, error);
-    await interaction.reply('There was an error executing your command.');
-  }
-});
 
-// Bot ready event
-client.once('ready', async () => {
-  console.log(`${client.user?.tag} is logged in!`);
-  await registerCommands();  // Register commands when bot is ready
-});
+    return commands;
+};
 
-// Log in the bot
-if (!process.env.BOT_TOKEN) {
-  console.error('BOT_TOKEN is not defined in the .env file.');
-  process.exit(1);
-} else {
-  client
-    .login(process.env.BOT_TOKEN)
-    .then(() => console.log('Bot logged in successfully!'))
-    .catch((error) => {
-      console.error('Error logging in the bot:', error);
-      process.exit(1);
-    });
-}
-
-// Export the client for use in bot.ts
-export { client };
+export const initializeCommands = async (client: Client) => {
+    console.log('Starting command initialization...');
+    setupEventHandlers(client);
+    await registerAllCommands(client);
+    console.log('Command initialization complete');
+};
